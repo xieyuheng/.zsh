@@ -1,9 +1,12 @@
 alias l="ls -hCF"
-alias ll="ls -halF"
+alias ll="ls -hlF"
+alias lll="ls -halF"
 # alias "?"="du -sh ."
 
 
-# alias fasm='fasm -m 500000 '
+alias fasm='fasm -m 500000 '
+
+# alias unzip='unzip -L '
 
 
 # 使用最下面的一个是为了增加可读性

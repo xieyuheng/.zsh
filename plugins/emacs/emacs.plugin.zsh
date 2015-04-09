@@ -1,11 +1,29 @@
+function e {
+    emacsclient -c  $1  &!
+}
+
 export EMACS_PLUGIN_LAUNCHER="$ZSH/plugins/emacs/emacsclient.sh"
 
 alias  emacs='LC_CTYPE=zh_CN.UTF-8  emacs'
 # alias emacs="LC_CTYPE=zh_CN.UTF-8 $EMACS_PLUGIN_LAUNCHER --no-wait"
 
 # to code all night long
+
+alias em=emacs
+
 alias emasc=emacs
 alias emcas=emacs
+alias emcsa=emacs
+alias emsca=emacs
+alias emsac=emacs
+
+alias emasa=emacs
+alias emaca=emacs
+alias emcsc=emacs
+alias emcac=emacs
+alias emsas=emacs
+alias emscs=emacs
+
 
 
 export EDITOR="e"            # e = emacsclient -c $1
@@ -30,6 +48,7 @@ function efile {
     local cmd="(buffer-file-name (window-buffer))"
     "$EMACS_PLUGIN_LAUNCHER" --eval "$cmd" | tr -d \"
 }
+
 
 # Write to standard output the directory of the file
 # opened in the the current buffer
