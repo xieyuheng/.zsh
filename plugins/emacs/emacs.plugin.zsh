@@ -11,18 +11,18 @@ alias  emacs='LC_CTYPE=zh_CN.UTF-8  emacs'
 
 alias em=emacs
 
-alias emasc=emacs
-alias emcas=emacs
-alias emcsa=emacs
-alias emsca=emacs
-alias emsac=emacs
-
-alias emasa=emacs
-alias emaca=emacs
-alias emcsc=emacs
-alias emcac=emacs
-alias emsas=emacs
-alias emscs=emacs
+# alias emasc=emacs
+# alias emcas=emacs
+# alias emcsa=emacs
+# alias emsca=emacs
+# alias emsac=emacs
+ 
+# alias emasa=emacs
+# alias emaca=emacs
+# alias emcsc=emacs
+# alias emcac=emacs
+# alias emsas=emacs
+# alias emscs=emacs
 
 
 

@@ -1,18 +1,25 @@
-alias l="ls -hCF"
-alias ll="ls -hlF"
-alias lll="ls -halF"
+# alias l="ls -hCF"
+# alias ll="ls -hlF"
+# alias lll="ls -halF"
+alias l="exa"
+alias ll="exa --header --group --bytes --long --git"
+alias lll="exa --header --group --bytes --long --git --all"
+alias llll="exa --header --group --bytes --long --git --all --tree --level=2"
+alias lllll="exa --header --group --bytes --long --git --all --tree --level=3"
 # alias "?"="du -sh ."
 
 
-alias fasm='fasm -m 500000 '
+# alias fasm='fasm -m 100000 '
 
 # alias unzip='unzip -L '
 
 
 # 使用最下面的一个是为了增加可读性
-# alias copy='rsync -avh'
-# alias copy='rsync -rlptgoDvh'
+alias c='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable'
+alias m='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable --remove-source-files'
+
 alias copy='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable'
+alias move='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable --remove-source-files'
 
 alias rm=' timeout 3 rm -Iv --one-file-system '
 # This alias suspends rm after three seconds

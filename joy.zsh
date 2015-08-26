@@ -1,0 +1,1 @@
+export PATH=$HOME/lang/joy/joy-git/source:$PATH

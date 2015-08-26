@@ -1,0 +1,1 @@
+export PATH=$HOME/lang/lfe/lfe-git/bin:$PATH
