@@ -1,12 +1,13 @@
-# alias l="ls -hCF"
-# alias ll="ls -hlF"
-# alias lll="ls -halF"
-alias l="exa"
-alias ll="exa --header --group --bytes --long --git"
-alias lll="exa --header --group --bytes --long --git --all"
-alias llll="exa --header --group --bytes --long --git --all --tree --level=2"
-alias lllll="exa --header --group --bytes --long --git --all --tree --level=3"
-# alias "?"="du -sh ."
+alias l="ls -hCF"
+alias ll="ls -hlF"
+alias lll="ls -halF"
+eval $(dircolors ~/.dircolors)
+
+# alias l="exa"
+# alias ll="exa --header --group --bytes --long --git"
+# alias lll="exa --header --group --bytes --long --git --all"
+# alias llll="exa --header --group --bytes --long --git --all --tree --level=2"
+# alias lllll="exa --header --group --bytes --long --git --all --tree --level=3"
 
 
 # alias fasm='fasm -m 100000 '
