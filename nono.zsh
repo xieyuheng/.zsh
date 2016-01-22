@@ -1,0 +1,1 @@
+unsetopt cdable_vars

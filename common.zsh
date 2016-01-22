@@ -16,10 +16,11 @@ eval $(dircolors ~/.dircolors)
 
 
 # 使用最下面的一个是为了增加可读性
-alias c='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable'
-alias m='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable --remove-source-files'
+# alias c='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable'
+# alias m='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable --remove-source-files'
 
 alias copy='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable'
+alias copy-fast='rsync --recursive --links --perms --times --group --owner --devices --specials'
 alias move='rsync --recursive --links --perms --times --group --owner --devices --specials --verbose --human-readable --remove-source-files'
 
 alias rm=' timeout 3 rm -Iv --one-file-system '

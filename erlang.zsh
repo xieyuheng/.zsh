@@ -1,0 +1,1 @@
+#export ERL_TOP=/home/xyh/lang/erlag/opt/
